@@ -1,0 +1,36 @@
+DATA CLEANING & STRUCTURAL VALIDATION SUMMARY
+================================================
+Rows before cleaning: 21
+Exact duplicate rows removed: 1
+Rows after cleaning: 20
+
+Remaining missing values:
+customer_id        0
+customer_name      0
+email_address      2
+signup_date        5
+age                5
+city               0
+purchase_amount    0
+membership         0
+orders             0
+
+Cleaning decisions:
+- Standardized headers to lowercase snake_case.
+- Trimmed whitespace and normalized city/membership capitalization.
+- Converted placeholder values such as unknown, N/A and blanks to missing.
+- Removed exact duplicate rows.
+- Parsed signup dates; invalid dates remain blank.
+- Converted age, purchase_amount and orders to numeric types.
+- Ages outside 0-100 were treated as invalid and left missing.
+- Missing customer names and memberships filled as Unknown.
+- Missing/invalid purchase amounts filled with median (840.00).
+- Invalid/missing orders filled with 0 for this demonstration; verify this rule for real data.
+- Unknown email, age and signup dates remain missing rather than being invented.
+
+Validation:
+- Unique column headers: True
+- Customer ID unique: False
+- Age dtype: Int64
+- Purchase amount dtype: float64
+- Orders dtype: Int64

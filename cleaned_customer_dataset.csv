@@ -1,0 +1,21 @@
+customer_id,customer_name,email_address,signup_date,age,city,purchase_amount,membership,orders
+C001,Asha Patel,ASHA.PATEL@example.com,2025-01-05,25,Indore,1200.5,Gold,3
+C002,Rahul Sharma,rahul.sharma@example.com,,34,Mumbai,800.0,Silver,1
+C003,Neha Verma,neha.verma@example.com,,29,New Delhi,840.0,Bronze,0
+C004,Unknown,,,,Pune,450.0,Gold,2
+C005,Imran Khan,imran.khan@example.com,2025-04-09,41,Indore,1000.0,Silver,5
+C006,Pooja Singh,,2025-05-10,28,Jaipur,650.0,Gold,2
+C007,Vikram Rao,vikram.rao@example.com,,,Bhopal,500.0,Platinum,4
+C008,Sara Ali,sara.ali@example.com,2025-06-12,31,Mumbai,840.0,Bronze,0
+C009,Dev Mehta,dev.mehta@example.com,2025-07-13,,Delhi,1200.0,Silver,3
+C010,Kavya Joshi,kavya.joshi@example.com,2025-08-14,27,Pune,900.0,Gold,2
+C011,Rohan Das,rohan.das@example.com,2025-09-15,36,Jaipur,700.0,Bronze,1
+C012,Meera Nair,meera.nair@example.com,2025-10-16,32,Kochi,1100.0,Silver,4
+C003,Neha Verma,neha.verma@example.com,2025-03-07,29,New Delhi,840.0,Bronze,0
+C014,Arjun Shah,arjun.shah@example.com,2025-12-18,,Indore,2500.0,Gold,6
+C015,Tina Roy,tina.roy@example.com,,24,Surat,450.0,Silver,2
+C016,Mohit Jain,mohit.jain@example.com,2026-01-21,30,Bhopal,650.0,Gold,3
+C017,Anaya Bose,anaya.bose@example.com,2026-02-22,26,Kochi,720.0,Bronze,1
+C018,Kabir Sen,kabir.sen@example.com,2026-03-23,33,Delhi,840.0,Platinum,2
+C019,Isha Gupta,isha.gupta@example.com,2026-04-24,,Surat,910.0,Unknown,2
+C020,Om Prakash,om.prakash@example.com,2026-05-25,38,Mumbai,1050.0,Silver,4
